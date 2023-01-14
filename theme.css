@@ -1,0 +1,63 @@
+/* Change the background color of the hero section */
+#home.jumbotron {
+    background-color: #0c2340;
+    /* dark blue color */
+}
+
+/* Change the text color of the hero section */
+#home.jumbotron h1,
+#home.jumbotron p {
+    color: #fff;
+    /* white color */
+}
+
+/* Change the background color of the navigation bar */
+.navbar {
+    background-color: #0c2340;
+    /* dark blue color */
+}
+
+/* Change the text color of the navigation bar */
+.navbar-nav a {
+    color: #fff;
+    /* white color */
+}
+
+/* Change the background color of the skills list */
+.skills-list li {
+    background-color: #fff;
+    /* white color */
+}
+
+/* Change the text color of the skills list */
+.skills-list li {
+    color: #0c2340;
+    /* dark blue color */
+}
+
+/* Change the background color of the contact section */
+#contact {
+    background-color: #0c2340;
+    /* dark blue color */
+}
+
+/* Change the text color of the contact section */
+#contact h2,
+#contact p {
+    color: #fff;
+    /* white color */
+}
+
+/* Change the background and text color of the buttons */
+button.view-project,
+input[type="submit"] {
+    background-color: #fff;
+    /* white color */
+    color: #0c2340;
+    /* dark blue color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}

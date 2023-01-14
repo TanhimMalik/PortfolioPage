@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Tanhim Malik</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="jumbotron jumbotron-fluid bg-primary text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Tanhim Malik</h1>
+            <p class="lead">Hello! Welcome to my portfolio! Please feel free to look through my projects and experience.
+                I would love to hear feedack so please contact me as well!</p>
+        </div>
+    </section>
+    <section id="about" class="container mt-5 animated fadeInUp">
+        <h2 class="text-center mb-4">About me</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/profilepic.jpg" alt="Profile Picture" class="img-fluid mx-auto d-block mb-3">
+            </div>
+            <div class="col-md-8">
+                <p>Hello! My name is Tanhim Malik. I am a self taught programmer and a current participant in the Year
+                    Up program. I joined the Year Up program to hone my program skills as well as learn new ones.</p>
+                <p>Througout my experience in this program as well as my previous work experience I have garnered not
+                    only strong technical skills but also professional skills.</p>
+            </div>
+        </div>
+    </section>
+    <h3 class="skills-heading">Skills</h3>
+    <ul class="skills-list">
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+    </ul>
+    <section id="portfolio" class="container mt-5 animated fadeInUp">
+        <h2 class="text-center mb-4">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/nurthai.png" alt="Project 1" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Resturaunt Page</h5>
+                        <p class="card-text">A Resturaunt webpage created using HTML and base CSS only. Involves
+                            multiple pages and
+                            based on a real resturaunt.
+                        </p>
+                        <a href="https://glowing-malasada-013699.netlify.app/" target="_blank"
+                            class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/jstictac.png" alt="Project 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Tic Tac Toe</h5>
+                        <p class="card-text">A fun game of tic tac toe created using JavaScript and styled with CSS. It
+                            is a two player game and can be played with someone else.</p>
+                        <a href="https://tanhimmalik.github.io/JS-Tic-Tac-Toe/" target="_blank"
+                            class="btn btn-primary">View
+                            Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/tictac.png" alt="Rock, Paper, Scissor" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Rock, Paper, Scissor</h5>
+                        <p class="card-text">A game of rock, paper, scissors using python. It allows the user to create
+                            an account and validates with an external csv file</p>
+                        <a href="https://replit.com/@TanhimMalik/RockPaperScissors?v=1" target="_blank"
+                            class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container mt-5 animated fadeInUp">
+        <h2 class="text-center mb-4">Contact</h2>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <!-- Add this code to the bottom of the contact section -->
+            <div class="social-icons">
+                <a href="https://github.com/TanhimMalik" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tanhimmalik/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <footer class="bg-light py-3 mt-5 animated fadeInUp">
+        <div class="container">
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
